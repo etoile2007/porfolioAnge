@@ -48,8 +48,15 @@ nav ul li a:focus {
 
 
 .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
 
-
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #apropos{
